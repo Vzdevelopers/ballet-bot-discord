@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap");
+/* 
+font-family: 'Righteous', sans-serif;
+font-family: 'Sarala', sans-serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  overflow: hidden;
+}
+
+body {
+  font-size: 100%;
+  background: linear-gradient(68deg, #2f2325 16.62%, #8e5d52 85.61%);
+}
+
+.menu-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.625rem;
+}
+
+.header-logo {
+  height: 3.75rem;
+}
+
+.navegation {
+  display: flex;
+  gap: 2rem;
+}
+
+.header-msg {
+  color: #fff2e7;
+  font-family: sarala;
+  font-weight: 400;
+  font-size: 1.125rem;
+}
+
+.conteudo {
+  border-top: 1px solid #fff2e783;
+  margin-bottom: 48px;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.section-1-conteudo {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.title-1 {
+  color: #fff2e7;
+  font-family: Righteous;
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.sub-title {
+  color: #ecd6c4;
+  font-family: Sarala;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.button-main {
+  text-decoration: none;
+  border: none;
+  width: 11.5625rem;
+  height: 3.1875rem;
+  border-radius: 1.25rem;
+  background: #ecd6c4;
+  box-shadow: inset -1px 1px 20px 8px rgb(0 0 0 / 48%);
+}
+
+.button-title {
+  color: #2f2325;
+  text-align: center;
+  font-family: Sarala;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  row-gap: 23px;
+  margin-top: 48px;
+}
+
+.section-h3 {
+  border-top: 0.4px solid cornsilk;
+  border-radius: 1px;
+  padding: 48px;
+  width: 24.9375rem;
+  height: 2.75rem;
+  color: #fff2e7;
+  text-align: center;
+  font-family: Righteous;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.paragrafos-section2 {
+  color: #ecd6c4;
+  text-align: center;
+  font-family: Sarala;
+  font-size: 0.99rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+strong {
+  color: #ecd6c4;
+  font-family: Sarala;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menu-footer {
+  border-top: 0.3px solid #fff2e7;
+  padding: 32px;
+}
+
+.logotipo-footer {
+  height: 48px;
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+}
+
+button:hover {
+  transform: scale(0.88);
+}
